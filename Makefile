@@ -1,4 +1,5 @@
 .PHONY:build
 build:
-	c++ -Wall -O0 -g -o main ./main.cpp
+	c++ --version
+	c++ -std=c++14 -Wall -O0 -g -o main ./main.cpp
 	./main
